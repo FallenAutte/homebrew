@@ -24,7 +24,7 @@
         <span class="feature">Size.</span>Wind Spirits tend to be smaller in size, hovering at around 5 feet tall. Your size is Medium.<br/>
         <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
         <span class="feature">Flight.</span>You have a flying speed of 50 feet. To use this ability, you cannot be wearing medium or heavy armor.
-        <span class="feature">Language.</span>You can speak, read, and write Common, Sylvan and one language of your choice.<br/>
+        <span class="feature">Language.</span>You can speak, read, and write Common and one language of your choice.<br/>
         <span class="feature">Storm Immunity.</span>You are immune to Lightning damage, and resistent to Thunder damage.<br/>
         <span class="feature">Wind Body.</span>You can turn your body invisible with the wind at the expense of being able to use items. Your opponent must roll a perception check of 15 or higher to detect you.<br/>
     <sheet alt="Wind Spirit" display="false" />
@@ -35,7 +35,7 @@
       <stat name="innate speed" value="30" bonus="base"/>
       <Stat name="flying speed" value="50" bonus="base"/>
       <grant type="Size" id="ID_SIZE_MEDIUM" />
-      <grant type="Language" id="ID_LANGUAGE_COMMON" id="ID_LANGUAGE_SYLVAN"/>
+      <grant type="Language" id="ID_LANGUAGE_COMMON"/>
       <select type="Language" name="Language (Wind Spirit)" supports="Starting" />
       <grant type="Racial Trait" id="ID_FA_HB_RACIAL_TRAIT_WIND_SPIRIT_STORM_IMMUNITY" />
       <grant type="Racial Trait" id="ID_FA_HB_RACIAL_TRAIT_WIND_SPIRIT_WIND_BODY" />
