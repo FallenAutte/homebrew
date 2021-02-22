@@ -27,7 +27,7 @@
         <span class="feature">Language.</span>You can speak, read, and write Common, Sylvan and one language of your choice.<br/>
         <span class="feature">Storm Immunity.</span>You are immune to Lightning damage, and resistent to Thunder damage.<br/>
         <span class="feature">Wind Body.</span>You can turn your body invisible with the wind at the expense of being able to use items. Your opponent must roll a perception check of 15 or higher to detect you.<br/>
-    <sheet alt="Medusa" display="false" />
+    <sheet alt="Wind Spirit" display="false" />
     <setters />
     <rules>
       <stat name="dexterity" value="2"/>
@@ -42,7 +42,7 @@
     </rules>
   </element>
 
-  <element name="Cursed" type="Racial Trait" source="FallenAutte Homebrew" id="ID_FA_HB_RACIAL_TRAIT_WIND_SPIRIT_STORM_IMMUNITY">
+  <element name="Storm Immunity" type="Racial Trait" source="FallenAutte Homebrew" id="ID_FA_HB_RACIAL_TRAIT_WIND_SPIRIT_STORM_IMMUNITY">
     <description>
       <p>You are immune to Lightning damage and resistant to Thunder damage.</p>
     </description>
