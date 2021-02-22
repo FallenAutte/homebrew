@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Wind Spirit</name>
+		<update version="1.0.0">
+			<file name="race-wind-spirit.xml" url="https://raw.githubusercontent.com/FallenAutte/homebrew/master/user-yourname/race-wind-spirit.xml" />
+		</update>
+	</info>
+	
+  <element name="Wind Spirit" type="Race" source="FallenAutte Homebrew" id="ID_FA_HB_RACE_WIND_SPIRIT">
+    <description>
+      <p class="flavor">Wind Spirits are humanoids that embody the spirit of wind in nature. Hailing from mountainous reigions, these recluses are wary of strangers, often prefering to keep a distance, but still offering help when it's needed. Skilled healers and natural born mountain-dwellers, these creatures know all the best ways to find resources in the rough terrain of mountains and the surrounding valleys.</p>
+      <h4>GUSTS AND GALES</h4>
+      <p>Thousands of years ago, storms ravaged the mountain tops and valleys of the Forgotten Realms. Anyone who dared to set foot in the wilds of these dangerous terrains would disappear, until one day a man stumbles home from a trek through a particularly infamous mountain range with a haunted look on his face.</p>
+      <p class="indent">He told tales of spirits who danced around him, pushing trees out of the way to guide him home safely. When the gales blew too strongly to keep him on his feet, the spirits formed a cyllindrical wall around him to keep him safe. They helped him seek food and shelter and tended to his wounds. They did not speak to him, he never knew what they were.</p>
+	      <h4>CURSED TO ROAM</h4>
+      <p>Not much is known about Wind Spirits and how they are created, but a common theory involves the passing of lost souls in the storming mountains. Should a man die in the mountains, his spirit may be lost and become one with the wind.
+      <h4>WIND SPIRIT TRAITS</h4>
+      <p>Wind Spirits have the following racial traits.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2, and your Wisdom score increases by 1.<br/>
+        <span class="feature">Age.</span>Wind Spirits are not born — they are made. When a humanoid dies in the mountain storms, their soul may have a chance to get lost on its way to the afterlife, thus becoming a Wind Spirit.<br/>
+        <span class="feature">Alignment.</span>Wind Spirits tend to lean lawful neutral — they are not malicious, but do not intentially seek out relations with other people.<br/>
+        <span class="feature">Size.</span>Wind Spirits tend to be smaller in size, hovering at around 5 feet tall. Your size is Medium.<br/>
+        <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+        <span class="feature">Flight.</span>You have a flying speed of 50 feet. To use this ability, you cannot be wearing medium or heavy armor.
+        <span class="feature">Language.</span>You can speak, read, and write Common, Sylvan and one language of your choice.<br/>
+        <span class="feature">Storm Immunity.</span>You are immune to Lightning damage, and resistent to Thunder damage.<br/>
+        <span class="feature">Wind Body.</span>You can turn your body invisible with the wind at the expense of being able to use items. Your opponent must roll a perception check of 15 or higher to detect you.<br/>
+    <sheet alt="Medusa" display="false" />
+    <setters />
+    <rules>
+      <stat name="dexterity" value="2"/>
+      <stat name="wisdom" value="1"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <Stat name="flying speed" value="50" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" id="ID_LANGUAGE_SYLVAN"/>
+      <select type="Language" name="Language (Wind Spirit)" supports="Starting" />
+      <grant type="Racial Trait" id="ID_FA_HB_RACIAL_TRAIT_WIND_SPIRIT_STORM_IMMUNITY" />
+      <grant type="Racial Trait" id="ID_FA_HB_RACIAL_TRAIT_WIND_SPIRIT_WIND_BODY" />
+    </rules>
+  </element>
+
+  <element name="Cursed" type="Racial Trait" source="FallenAutte Homebrew" id="ID_FA_HB_RACIAL_TRAIT_WIND_SPIRIT_STORM_IMMUNITY">
+    <description>
+      <p>You are immune to Lightning damage and resistant to Thunder damage.</p>
+    </description>
+    <sheet>
+      <description>You are immune to Lightning damage and resistant to Thunder damage.</description>
+    </sheet>
+  </element>
+
+  <element name="Wind Body" type="Racial Trait" source="FallenAutte Homebrew" id="ID_FA_HB_RACIAL_TRAIT_WIND_SPIRIT_WIND_BODY">
+    <description>
+      <p>You can turn your body invisible with the wind at the expense of being able to use items. Your opponent must pass a perception check of 15 or higher to detect you.</p>
+    </description>
+    <sheet>
+      <description>You can turn your body invisible at the expense of being able to use items. Your opponent must pass a DC 15 Perception check to detect you.</description>
+    </sheet>
+    <rules>
+      <stat name="wind body:bonus" value="proficiency" />
+      <stat name="wind body:bonus" value="perception:modifier" />
+    </rules>
+  </element>
+    </sheet>
+  </element>
+</elements>
+</elements>
