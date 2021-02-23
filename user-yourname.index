@@ -3,10 +3,10 @@
 	<info>
 		<name>Your Content</name>
 		<update version="1.0.0">
-			<file name="user-yourname.index" url="https://raw.githubusercontent.com/FallenAutte/homebrew/master/user-yourname.index"/>
+			<file name="user-yourname.index" url="https://raw.githubusercontent.com/FallenAutte/homebrew/master/user-yourname.index" />
 		</update>
 	</info>
 	<files>
-		<file name="race-wind-spirit.xml" url="https://raw.githubusercontent.com/FallenAutte/homebrew/master/user-yourname/race-wind-spirit.xml"/>
+		<file name="race-wind-spirit.xml" url="https://raw.githubusercontent.com/FallenAutte/homebrew/master/user-yourname/race-wind-spirit.xml" />
 	</files>
 </index>
