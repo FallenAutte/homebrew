@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Your Content</name>
+		<update version="1.0.0">
+			<file name="content.index" url="https://raw.githubusercontent.com/FallenAutte/homebrew/master/content.index" />
+		</update>
+	</info>
+	<files>
+		<file name="race-wind-spirit.xml" url="https://raw.githubusercontent.com/FallenAutte/homebrew/master/content/race-wind-spirit.xml" />
+	</files>
+</index>
