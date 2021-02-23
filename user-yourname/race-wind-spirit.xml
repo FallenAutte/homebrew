@@ -40,7 +40,8 @@
       <grant type="Racial Trait" id="ID_FA_HB_RACIAL_TRAIT_WIND_SPIRIT_STORM_IMMUNITY" />
       <grant type="Racial Trait" id="ID_FA_HB_RACIAL_TRAIT_WIND_SPIRIT_WIND_BODY" />
 	      </rules>
-	    </p></p>
+	    </p>
+	  </description>
   </element>
 
   <element name="Storm Immunity" type="Racial Trait" source="FallenAutte Homebrew" id="ID_FA_HB_RACIAL_TRAIT_WIND_SPIRIT_STORM_IMMUNITY">
