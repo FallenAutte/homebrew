@@ -3,7 +3,7 @@
 	<info>
 		<name>Wind Spirit</name>
 		<update version="1.0.0">
-			<file name="race-wind-spirit.xml" url="https://raw.githubusercontent.com/FallenAutte/homebrew/master/user-yourname/race-wind-spirit.xml" />
+			<file name="race-wind-spirit.xml" url="https://raw.githubusercontent.com/FallenAutte/homebrew/master/content/race-wind-spirit.xml" />
 		</update>
 	</info>
 	
@@ -27,8 +27,6 @@
         <span class="feature">Language.</span>You can speak, read, and write Common and one language of your choice.<br/>
         <span class="feature">Storm Immunity.</span>You are immune to Lightning damage, and resistent to Thunder damage.<br/>
         <span class="feature">Wind Body.</span>You can turn your body invisible with the wind at the expense of being able to use items. Your opponent must roll a perception check of 15 or higher to detect you.<br/>
-    <sheet alt="Wind Spirit" display="false" />
-    <setters />
     <rules>
       <stat name="dexterity" value="2"/>
       <stat name="wisdom" value="1"/>
